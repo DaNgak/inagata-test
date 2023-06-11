@@ -6,7 +6,7 @@
 
 # Kriteria
 
--   Upload project ke github dan deploy
+-   Upload project ke github dan [deploy](https://dangak.github.io/inagata-test/)
 -   Tampilan sesuai desain dan responsive
 -   Menggunakan [Tailwind CSS](https://tailwindcss.com/)
 
