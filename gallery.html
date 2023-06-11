@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Galery</title>
+        <link rel="stylesheet" href="dist/output.css" />
+        <script
+            src="https://kit.fontawesome.com/84b8b14a19.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <div class="bg-rounded-home"></div>
+        <!-- Header Section -->
+        <header
+            id="header"
+            class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10"
+        >
+            <div class="container xl:px-20">
+                <div class="flex items-center justify-between relative">
+                    <div class="px-0">
+                        <a
+                            href="#"
+                            class="font-bold text-lg text-primary block py-5"
+                            ><img src="dist/img/Logo.png" alt="Logo"
+                        /></a>
+                    </div>
+                    <div class="flex items-center px-0 lg:w-[60%] xl:w-1/2">
+                        <button
+                            id="hamburger"
+                            name="hamburger"
+                            class="block absolute right-0 lg:hidden"
+                        >
+                            <span
+                                class="hamburger-line origin-top-right"
+                            ></span>
+                            <span class="hamburger-line"></span>
+                            <span
+                                class="hamburger-line origin-bottom-right"
+                            ></span>
+                        </button>
+                        <nav
+                            id="nav-menu"
+                            class="hidden absolute py-5 bg-white shadow-xl rounded-md max-w-[250px] w-full right-0 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none"
+                        >
+                            <ul
+                                class="block lg:flex lg:justify-between text-black"
+                            >
+                                <li
+                                    class="group transition-all duration-300 ease-in-out lg:hidden"
+                                >
+                                    <a href="#" class="navbar-link">PPDB</a>
+                                </li>
+                                <li
+                                    class="group transition-all duration-300 ease-in-out"
+                                >
+                                    <a href="index.html" class="navbar-link"
+                                        >Beranda</a
+                                    >
+                                </li>
+                                <li
+                                    class="group transition-all duration-300 ease-in-out"
+                                >
+                                    <a href="about.html" class="navbar-link"
+                                        >Tentang</a
+                                    >
+                                </li>
+                                <li
+                                    class="group transition-all duration-300 ease-in-out"
+                                >
+                                    <a
+                                        href="gallery.html"
+                                        class="navbar-link font-bold text-element4"
+                                        >Galeri</a
+                                    >
+                                </li>
+                                <li
+                                    class="group transition-all duration-300 ease-in-out"
+                                >
+                                    <a href="article.html" class="navbar-link"
+                                        >Artikel</a
+                                    >
+                                </li>
+                                <li
+                                    class="group transition-all duration-300 ease-in-out"
+                                >
+                                    <a href="contact.html" class="navbar-link"
+                                        >Kontak</a
+                                    >
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="hidden lg:block">
+                        <a
+                            href="#"
+                            class="text-base text-black py-2 px-5 border border-black rounded-full transition-all duration-300 ease-in-out hover:text-element4 hover:border hover:border-element4"
+                            >PPDB</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End Header Section -->
+        <!-- Hero Section -->
+        <section
+            id="home"
+            class="flex justify-center items-center mb-20 lg:mb-24 pt-20 md:pt-24 lg:pt-28 xl:pt-32"
+        >
+            <div class="container xl:px-20">
+                <div class="flex flex-wrap lg:items-center">
+                    <div
+                        class="w-full px-0 order-2 md:px-10 md:text-center lg:text-left lg:order-1 lg:w-1/2 lg:px-0"
+                    >
+                        <h1
+                            class="text-3xl font-bold text-black mb-4 md:text-4xl xl:text-6xl xl:leading-[84px]"
+                        >
+                            Galeri
+                        </h1>
+                        <p
+                            class="text-lg text-justify font-medium text-black mb-6 lg:mb-0 xl:text-2xl"
+                        >
+                            Beberapa dokumentasi area sekolah dan
+                            kegiatan-kegiatan yang diadakan sekolah
+                        </p>
+                    </div>
+                    <div
+                        class="w-full flex justify-center items-center order-1 mb-10 lg:order-2 lg:w-1/2 lg:m-0 lg:justify-end"
+                    >
+                        <div
+                            class="relative w-[300px] h-[350px] lg:w-[375px] lg:h-[425px] xl:w-[450px] xl:h-[500px]"
+                        >
+                            <div
+                                class="w-[300px] h-[300px] bg-element4 rounded-3xl shadow-xl absolute bottom-0 transform left-1/2 -translate-x-1/2 lg:w-[375px] lg:h-[375px] xl:w-[450px] xl:h-[450px]"
+                            >
+                                <div class="w-full h-full relative">
+                                    <img
+                                        src="dist/img/galery-page/GaleriHero.png"
+                                        alt="Gambar Hero"
+                                        class="absolute z-10 bottom-0 left-0 right-0 rounded-3xl"
+                                    />
+                                    <span
+                                        class="absolute z-20 -left-4 top-6 lg:-left-6 lg:top-8 xl:-left-8 xl:top-10"
+                                        ><img
+                                            class="w-[50px] h-[50px] lg:w-[70px] lg:h-[70px] xl:w-[80px] xl:h-[80px]"
+                                            src="dist/img/Frame 1009.png"
+                                            alt="Ornamen 1"
+                                    /></span>
+                                    <span
+                                        class="absolute z-20 -right-5 top-1/2 -translate-y-1/2 lg:-right-7 xl:-right-9"
+                                        ><img
+                                            class="w-[50px] h-[50px] lg:w-[70px] lg:h-[70px] xl:w-[80px] xl:h-[80px]"
+                                            src="dist/img/Frame 1010.png"
+                                            alt="Ornamen 2"
+                                    /></span>
+                                    <span
+                                        class="absolute z-20 bottom-6 -left-8 lg:bottom-8 lg:-left-10 xl:bottom-10 xl:-left-12"
+                                        ><img
+                                            class="w-[50px] h-[50px] lg:w-[70px] lg:h-[70px] xl:w-[80px] xl:h-[80px]"
+                                            src="dist/img/Frame 1011.png"
+                                            alt="Ornamen 3"
+                                    /></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Hero Section -->
+        <!-- Gallery Section -->
+        <section
+            id="gallery"
+            class="w-full flex justify-center items-center mb-52"
+        >
+            <div class="container xl:px-20">
+                <div
+                    class="flex flex-col bg-white shadow-xl rounded-xl p-6 lg:py-10 lg:px-8 xl:py-16 xl:px-10"
+                >
+                    <h2
+                        class="text-2xl font-bold text-center text-element5 mb-6 lg:mb-10 lg:text-4xl xl:text-6xl"
+                    >
+                        Dokumentasi Sekolah
+                    </h2>
+                    <div class="flex flex-wrap md:justify-between">
+                        <div
+                            class="w-full flex flex-col items-start shadow-xl rounded-3xl bg-white mb-6 md:mb-8 lg:mb-10 md:w-[45%] lg:w-[30%] lg:shadow-none lg:rounded-none lg:bg-transparent"
+                        >
+                            <img
+                                src="dist/img/galery-page/Dokumentasi1.png"
+                                alt="Dokumentasi1"
+                                class="w-full rounded-3xl lg:shadow-xl lg:mb-4"
+                                loading="lazy"
+                            />
+                            <div class="w-full p-4 pb-8 lg:p-0">
+                                <h2
+                                    class="text-lg text-start font-medium text-element5 mb-1 lg:mb-2 lg:font-semibold lg:text-2xl"
+                                >
+                                    Ruang Kelas
+                                </h2>
+                                <p
+                                    class="text-base text-justify font-normal text-black"
+                                >
+                                    Ruangan yang digunakan untuk proses belajar
+                                    mengajar
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="w-full flex flex-col items-start shadow-xl rounded-3xl bg-white mb-6 md:mb-8 lg:mb-10 md:w-[45%] lg:w-[30%] lg:shadow-none lg:rounded-none lg:bg-transparent"
+                        >
+                            <img
+                                src="dist/img/galery-page/Dokumentasi2.png"
+                                alt="Dokumentasi1"
+                                class="w-full rounded-3xl lg:shadow-xl lg:mb-4"
+                                loading="lazy"
+                            />
+                            <div class="w-full p-4 pb-8 lg:p-0">
+                                <h2
+                                    class="text-lg text-start font-medium text-element5 mb-1 lg:mb-2 lg:font-semibold lg:text-2xl"
+                                >
+                                    Halaman Sekolah
+                                </h2>
+                                <p
+                                    class="text-base text-justify font-normal text-black"
+                                >
+                                    Halaman tempat siswa dapat bermain dan
+                                    berkumpul
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="w-full flex flex-col items-start shadow-xl rounded-3xl bg-white mb-6 md:mb-8 lg:mb-10 md:w-[45%] lg:w-[30%] lg:shadow-none lg:rounded-none lg:bg-transparent"
+                        >
+                            <img
+                                src="dist/img/galery-page/Dokumentasi3.png"
+                                alt="Dokumentasi1"
+                                class="w-full rounded-3xl lg:shadow-xl lg:mb-4"
+                                loading="lazy"
+                            />
+                            <div class="w-full p-4 pb-8 lg:p-0">
+                                <h2
+                                    class="text-lg text-start font-medium text-element5 mb-1 lg:mb-2 lg:font-semibold lg:text-2xl"
+                                >
+                                    Lorong Sekolah
+                                </h2>
+                                <p
+                                    class="text-base text-justify font-normal text-black"
+                                >
+                                    Lorong sekolah sebagai jalan penghubung
+                                    antar kelas
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="w-full flex flex-col items-start shadow-xl rounded-3xl bg-white mb-6 md:mb-8 lg:mb-10 md:w-[45%] lg:w-[30%] lg:shadow-none lg:rounded-none lg:bg-transparent"
+                        >
+                            <img
+                                src="dist/img/galery-page/Dokumentasi4.png"
+                                alt="Dokumentasi1"
+                                class="w-full rounded-3xl lg:shadow-xl lg:mb-4"
+                                loading="lazy"
+                            />
+                            <div class="w-full p-4 pb-8 lg:p-0">
+                                <h2
+                                    class="text-lg text-start font-medium text-element5 mb-1 lg:mb-2 lg:font-semibold lg:text-2xl"
+                                >
+                                    Belajar Mengajar
+                                </h2>
+                                <p
+                                    class="text-base text-justify font-normal text-black"
+                                >
+                                    Kegiatan belajar mengajar yang dilakukan di
+                                    dalam kelas
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="w-full flex flex-col items-start shadow-xl rounded-3xl bg-white mb-6 md:mb-8 lg:mb-10 md:w-[45%] lg:w-[30%] lg:shadow-none lg:rounded-none lg:bg-transparent"
+                        >
+                            <img
+                                src="dist/img/galery-page/Dokumentasi5.png"
+                                alt="Dokumentasi1"
+                                class="w-full rounded-3xl lg:shadow-xl lg:mb-4"
+                                loading="lazy"
+                            />
+                            <div class="w-full p-4 pb-8 lg:p-0">
+                                <h2
+                                    class="text-lg text-start font-medium text-element5 mb-1 lg:mb-2 lg:font-semibold lg:text-2xl"
+                                >
+                                    Kelas Bahasa Inggris
+                                </h2>
+                                <p
+                                    class="text-base text-justify font-normal text-black"
+                                >
+                                    Kelas bahasa inggris agar siswa bisa lebih
+                                    fasih berbahasa inggris
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="w-full flex flex-col items-start shadow-xl rounded-3xl bg-white mb-6 md:mb-8 lg:mb-10 md:w-[45%] lg:w-[30%] lg:shadow-none lg:rounded-none lg:bg-transparent"
+                        >
+                            <img
+                                src="dist/img/galery-page/Dokumentasi6.png"
+                                alt="Dokumentasi1"
+                                class="w-full rounded-3xl lg:shadow-xl lg:mb-4"
+                                loading="lazy"
+                            />
+                            <div class="w-full p-4 pb-8 lg:p-0">
+                                <h2
+                                    class="text-lg text-start font-medium text-element5 mb-1 lg:mb-2 lg:font-semibold lg:text-2xl"
+                                >
+                                    Karya Murid
+                                </h2>
+                                <p
+                                    class="text-base text-justify font-normal text-black"
+                                >
+                                    Hasil karya murid dari kelas prakarya yang
+                                    dikerjakan secara individu dan kelompok
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="w-full flex flex-col items-start shadow-xl rounded-3xl bg-white mb-6 md:mb-8 lg:mb-10 md:w-[45%] lg:w-[30%] lg:shadow-none lg:rounded-none lg:bg-transparent"
+                        >
+                            <img
+                                src="dist/img/galery-page/Dokumentasi7.png"
+                                alt="Dokumentasi1"
+                                class="w-full rounded-3xl lg:shadow-xl lg:mb-4"
+                                loading="lazy"
+                            />
+                            <div class="w-full p-4 pb-8 lg:p-0">
+                                <h2
+                                    class="text-lg text-start font-medium text-element5 mb-1 lg:mb-2 lg:font-semibold lg:text-2xl"
+                                >
+                                    Lomba Tarik Tambang
+                                </h2>
+                                <p
+                                    class="text-base text-justify font-normal text-black"
+                                >
+                                    Kegiatan lomba tarik tambang yang diadakan
+                                    diacara sekolah
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="w-full flex flex-col items-start shadow-xl rounded-3xl bg-white mb-6 md:mb-8 lg:mb-10 md:w-[45%] lg:w-[30%] lg:shadow-none lg:rounded-none lg:bg-transparent"
+                        >
+                            <img
+                                src="dist/img/galery-page/Dokumentasi8.png"
+                                alt="Dokumentasi1"
+                                class="w-full rounded-3xl lg:shadow-xl lg:mb-4"
+                                loading="lazy"
+                            />
+                            <div class="w-full p-4 pb-8 lg:p-0">
+                                <h2
+                                    class="text-lg text-start font-medium text-element5 mb-1 lg:mb-2 lg:font-semibold lg:text-2xl"
+                                >
+                                    Pameran Teknologi
+                                </h2>
+                                <p
+                                    class="text-base text-justify font-normal text-black"
+                                >
+                                    Pameran alat alat dengan teknologi terbaru
+                                    agar siswa bisa mengamati
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="w-full flex flex-col items-start shadow-xl rounded-3xl bg-white mb-6 md:mb-8 lg:mb-10 md:w-[45%] lg:w-[30%] lg:shadow-none lg:rounded-none lg:bg-transparent"
+                        >
+                            <img
+                                src="dist/img/galery-page/Dokumentasi9.png"
+                                alt="Dokumentasi1"
+                                class="w-full rounded-3xl lg:shadow-xl lg:mb-4"
+                                loading="lazy"
+                            />
+                            <div class="w-full p-4 pb-8 lg:p-0">
+                                <h2
+                                    class="text-lg text-start font-medium text-element5 mb-1 lg:mb-2 lg:font-semibold lg:text-2xl"
+                                >
+                                    Kelas Menggambar
+                                </h2>
+                                <p
+                                    class="text-base text-justify font-normal text-black"
+                                >
+                                    Kelas agar siswa bisa mengembangkan
+                                    kemampuan non akademik
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="w-full flex flex-col items-start shadow-xl rounded-3xl bg-white mb-6 md:mb-8 lg:mb-10 md:w-[45%] lg:w-[30%] lg:shadow-none lg:rounded-none lg:bg-transparent"
+                        >
+                            <img
+                                src="dist/img/galery-page/Dokumentasi10.png"
+                                alt="Dokumentasi1"
+                                class="w-full rounded-3xl lg:shadow-xl lg:mb-4"
+                                loading="lazy"
+                            />
+                            <div class="w-full p-4 pb-8 lg:p-0">
+                                <h2
+                                    class="text-lg text-start font-medium text-element5 mb-1 lg:mb-2 lg:font-semibold lg:text-2xl"
+                                >
+                                    Tugas Kelompok
+                                </h2>
+                                <p
+                                    class="text-base text-justify font-normal text-black"
+                                >
+                                    Selain tugas individu, kami juga memberikan
+                                    tugas kelompok
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="w-full flex flex-col items-start shadow-xl rounded-3xl bg-white mb-6 md:mb-8 lg:mb-10 md:w-[45%] lg:w-[30%] lg:shadow-none lg:rounded-none lg:bg-transparent"
+                        >
+                            <img
+                                src="dist/img/galery-page/Dokumentasi11.png"
+                                alt="Dokumentasi1"
+                                class="w-full rounded-3xl lg:shadow-xl lg:mb-4"
+                                loading="lazy"
+                            />
+                            <div class="w-full p-4 pb-8 lg:p-0">
+                                <h2
+                                    class="text-lg text-start font-medium text-element5 mb-1 lg:mb-2 lg:font-semibold lg:text-2xl"
+                                >
+                                    Belajar dan Bermain
+                                </h2>
+                                <p
+                                    class="text-base text-justify font-normal text-black"
+                                >
+                                    Agar siswa tidak jenuh, kami menerapkan
+                                    metode belajar dan bermain
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="w-full flex flex-col items-start shadow-xl rounded-3xl bg-white mb-6 md:mb-8 lg:mb-10 md:w-[45%] lg:w-[30%] lg:shadow-none lg:rounded-none lg:bg-transparent"
+                        >
+                            <img
+                                src="dist/img/galery-page/Dokumentasi12.png"
+                                alt="Dokumentasi1"
+                                class="w-full rounded-3xl lg:shadow-xl lg:mb-4"
+                                loading="lazy"
+                            />
+                            <div class="w-full p-4 pb-8 lg:p-0">
+                                <h2
+                                    class="text-lg text-start font-medium text-element5 mb-1 lg:mb-2 lg:font-semibold lg:text-2xl"
+                                >
+                                    Tamasya Sekolah
+                                </h2>
+                                <p
+                                    class="text-base text-justify font-normal text-black"
+                                >
+                                    Tamasya bersama agar siswa lebih akrab dan
+                                    tidak jenuh
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Gallery Section -->
+        <!-- Footer Section -->
+        <footer class="bg-primary">
+            <div class="container xl:px-20">
+                <div
+                    class="flex flex-wrap py-10 md:py-12 lg:flex-nowrap lg:justify-between lg:py-14 xl:py-16"
+                >
+                    <div
+                        class="w-full flex flex-col mb-6 lg:w-5/12 lg:mb-0 lg:pr-10 xl:pr-20"
+                    >
+                        <div class="mb-4 lg:mb-6">
+                            <img src="dist/img/Logo.png" alt="Logo" />
+                        </div>
+                        <p
+                            class="text-lg text-justify font-normal text-black lg:text-xl"
+                        >
+                            Jelajahi semua pengetahuan dan ilmu yang berguna
+                            bersama kami, untuk kehidupan yang lebih bermanfaat
+                        </p>
+                    </div>
+                    <div></div>
+                    <div
+                        class="w-full flex flex-wrap justify-between lg:flex-nowrap lg:w-7/12 xl:w-1/2"
+                    >
+                        <div class="flex flex-col mb-4 w-1/2 md:w-1/3 lg:mb-0">
+                            <h2
+                                class="text-lg text-start font-medium mb-4 text-element4 lg:font-semibold lg:mb-5 lg:text-2xl"
+                            >
+                                Informasi
+                            </h2>
+                            <a
+                                href="#"
+                                class="text-lg text-start font-normal mb-4 text-black lg:mb-5 lg:text-xl hover:opacity-80 hover:text-element4"
+                            >
+                                Artikel
+                            </a>
+                            <a
+                                href="#"
+                                class="text-lg text-start font-normal mb-4 text-black lg:mb-5 lg:text-xl hover:opacity-80 hover:text-element4"
+                            >
+                                Galeri
+                            </a>
+                        </div>
+                        <div class="flex flex-col mb-4 w-1/2 md:w-1/3 lg:mb-0">
+                            <h2
+                                class="text-lg text-start font-medium mb-4 text-element4 lg:font-semibold lg:mb-5 lg:text-2xl"
+                            >
+                                Tentang
+                            </h2>
+                            <a
+                                href="#"
+                                class="text-lg text-start font-normal mb-4 text-black lg:mb-5 lg:text-xl hover:opacity-80 hover:text-element4"
+                            >
+                                Tentang Kami
+                            </a>
+                            <a
+                                href="#"
+                                class="text-lg text-start font-normal mb-4 text-black lg:mb-5 lg:text-xl hover:opacity-80 hover:text-element4"
+                            >
+                                Hubungi Kami
+                            </a>
+                        </div>
+                        <div class="flex flex-col mb-4 w-full md:w-1/3 lg:mb-0">
+                            <h2
+                                class="text-lg text-start font-medium mb-4 text-element4 lg:font-semibold lg:mb-5 lg:text-2xl"
+                            >
+                                Ikuti Kami
+                            </h2>
+                            <a
+                                href="#"
+                                class="text-lg text-start font-normal mb-4 text-black lg:mb-5 lg:text-xl hover:opacity-80 hover:text-element4"
+                            >
+                                <i
+                                    class="fa fa-facebook text-base mr-2"
+                                    aria-hidden="true"
+                                ></i>
+                                namasekolah
+                            </a>
+                            <a
+                                href="#"
+                                class="text-lg text-start font-normal mb-4 text-black lg:mb-5 lg:text-xl hover:opacity-80 hover:text-element4"
+                            >
+                                <i
+                                    class="fa fa-twitter text-base mr-2"
+                                    aria-hidden="true"
+                                ></i>
+                                namasekolah
+                            </a>
+                            <a
+                                href="#"
+                                class="text-lg text-start font-normal mb-4 text-black lg:mb-5 lg:text-xl hover:opacity-80 hover:text-element4"
+                            >
+                                <i
+                                    class="fa fa-instagram text-base mr-2"
+                                    aria-hidden="true"
+                                ></i>
+                                namasekolah
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="text-center text-sm py-4 border-t-2 border-solid border-t-[#D3D7DF] lg:text-base lg:py-6 xl:py-8"
+            >
+                <p>Copyright © 2021. All rights reserved.</p>
+            </div>
+        </footer>
+        <!-- End Footer Section -->
+        <script src="dist/js/script.js"></script>
+    </body>
+</html>
